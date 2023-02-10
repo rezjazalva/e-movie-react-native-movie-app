@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "E Movie",
+    "slug": "eMovie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_custom.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#282A3A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/96f0593c-1231-438d-a38c-71c87e1a9e3a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#282A3A"
+      },
+      "package": "com.rezja_zalva.eMovie"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96f0593c-1231-438d-a38c-71c87e1a9e3a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
